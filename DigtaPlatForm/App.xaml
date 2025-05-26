@@ -1,0 +1,12 @@
+﻿<Application x:Class="DigtaPlatForm.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:DigtaPlatForm"
+             StartupUri="pack://application:,,,/DigtaPlatForm.Views;component/MainView.xaml">
+    <Application.Resources>
+
+        <local:ViewModelLocator x:Key="Locator" />
+        
+        <FontFamily x:Key="Iconfont">pack://application:,,,/DigtaPlatForm.Assets;component/Fonts/#iconfont</FontFamily>
+    </Application.Resources>
+</Application>

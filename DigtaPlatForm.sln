@@ -1,0 +1,89 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34525.116
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DigtaPlatForm", "DigtaPlatForm\DigtaPlatForm.csproj", "{CB58EBAA-52CE-47E4-AB7C-85253700CF3D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01.Start", "01.Start", "{F07FA8D5-70C6-4DEC-9952-23CCCF748949}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02.Views", "02.Views", "{DACAB3CB-57A9-4346-BD3C-F01B022FBE8A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DigtaPlatForm.Views", "DigtaPlatForm.Views\DigtaPlatForm.Views.csproj", "{99B0387B-D7E1-4500-9D12-9BCD9F1FDD0F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "03.ViewModels", "03.ViewModels", "{865966A9-6992-4D5F-A907-D51463F90AD4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DigtaPlatForm.ViewModels", "DigtaPlatForm.ViewModels\DigtaPlatForm.ViewModels.csproj", "{B1EFB13B-BD09-4637-9136-41AADDFA43E3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "04.Models", "04.Models", "{061CA469-795D-430D-ABD7-BB10E502F4EB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DigtaPlatForm.Models", "DigtaPlatForm.Models\DigtaPlatForm.Models.csproj", "{26FF648E-E95D-4731-9B45-5DCF1ED7E423}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "05.DataAccess", "05.DataAccess", "{0CBBC8E5-C526-4CB4-8D0D-6DC62A35CCA4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DigtaPlatForm.DataAccess", "DigtaPlatForm.DataAccess\DigtaPlatForm.DataAccess.csproj", "{13DB299A-7224-442E-8285-954CA8510B74}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "06.Common", "06.Common", "{88C06DA3-CAB7-412D-BF96-00779E472803}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DigtaPlatForm.Assets", "DigtaPlatForm.Assets\DigtaPlatForm.Assets.csproj", "{ED7AFC14-B027-470F-A4F5-980C007052C1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DigtaPlatForm.Common", "DigtaPlatForm.Common\DigtaPlatForm.Common.csproj", "{EA75A38B-85CD-4A49-8A34-315C79770CED}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DigtaPlatForm.Component", "DigtaPlatForm.Component\DigtaPlatForm.Component.csproj", "{3B834565-44C5-408F-8237-6DD39D59BD08}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CB58EBAA-52CE-47E4-AB7C-85253700CF3D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CB58EBAA-52CE-47E4-AB7C-85253700CF3D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CB58EBAA-52CE-47E4-AB7C-85253700CF3D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CB58EBAA-52CE-47E4-AB7C-85253700CF3D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{99B0387B-D7E1-4500-9D12-9BCD9F1FDD0F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{99B0387B-D7E1-4500-9D12-9BCD9F1FDD0F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{99B0387B-D7E1-4500-9D12-9BCD9F1FDD0F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{99B0387B-D7E1-4500-9D12-9BCD9F1FDD0F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B1EFB13B-BD09-4637-9136-41AADDFA43E3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B1EFB13B-BD09-4637-9136-41AADDFA43E3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B1EFB13B-BD09-4637-9136-41AADDFA43E3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B1EFB13B-BD09-4637-9136-41AADDFA43E3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{26FF648E-E95D-4731-9B45-5DCF1ED7E423}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{26FF648E-E95D-4731-9B45-5DCF1ED7E423}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{26FF648E-E95D-4731-9B45-5DCF1ED7E423}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{26FF648E-E95D-4731-9B45-5DCF1ED7E423}.Release|Any CPU.Build.0 = Release|Any CPU
+		{13DB299A-7224-442E-8285-954CA8510B74}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{13DB299A-7224-442E-8285-954CA8510B74}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{13DB299A-7224-442E-8285-954CA8510B74}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{13DB299A-7224-442E-8285-954CA8510B74}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ED7AFC14-B027-470F-A4F5-980C007052C1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ED7AFC14-B027-470F-A4F5-980C007052C1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ED7AFC14-B027-470F-A4F5-980C007052C1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ED7AFC14-B027-470F-A4F5-980C007052C1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EA75A38B-85CD-4A49-8A34-315C79770CED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EA75A38B-85CD-4A49-8A34-315C79770CED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EA75A38B-85CD-4A49-8A34-315C79770CED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EA75A38B-85CD-4A49-8A34-315C79770CED}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3B834565-44C5-408F-8237-6DD39D59BD08}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3B834565-44C5-408F-8237-6DD39D59BD08}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3B834565-44C5-408F-8237-6DD39D59BD08}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3B834565-44C5-408F-8237-6DD39D59BD08}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{CB58EBAA-52CE-47E4-AB7C-85253700CF3D} = {F07FA8D5-70C6-4DEC-9952-23CCCF748949}
+		{99B0387B-D7E1-4500-9D12-9BCD9F1FDD0F} = {DACAB3CB-57A9-4346-BD3C-F01B022FBE8A}
+		{B1EFB13B-BD09-4637-9136-41AADDFA43E3} = {865966A9-6992-4D5F-A907-D51463F90AD4}
+		{26FF648E-E95D-4731-9B45-5DCF1ED7E423} = {061CA469-795D-430D-ABD7-BB10E502F4EB}
+		{13DB299A-7224-442E-8285-954CA8510B74} = {0CBBC8E5-C526-4CB4-8D0D-6DC62A35CCA4}
+		{ED7AFC14-B027-470F-A4F5-980C007052C1} = {88C06DA3-CAB7-412D-BF96-00779E472803}
+		{EA75A38B-85CD-4A49-8A34-315C79770CED} = {88C06DA3-CAB7-412D-BF96-00779E472803}
+		{3B834565-44C5-408F-8237-6DD39D59BD08} = {88C06DA3-CAB7-412D-BF96-00779E472803}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {43E7F158-82F7-4EB3-82A9-59B54F681313}
+	EndGlobalSection
+EndGlobal
